@@ -1,0 +1,15 @@
+import org.junit.Assert;
+import org.junit.Test;
+
+
+public class UnitTest {
+    @Test
+    public void test(){
+
+        try {
+            Assert.assertEquals(InputClass.findString(), "feghjfkf kewkf jwkef kwefk");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
